@@ -536,13 +536,35 @@ footer a {
     display: inline-block;
     margin: 15px;
     font-size: 30px;
-    transition: .5s;
 }
 
-footer a:hover {
-    color: #ffe600;
+
+footer #linkedin {
+    transition: ease-in-out .4s;
 }
 
+footer #linkedin:hover{
+    color: #3e5bb8;
+    background-color: #fff;
+}
+
+footer #github {
+    transition: ease-in-out .4s;
+}
+
+footer #github:hover{
+    color: #000000;
+    background-color: #fff;
+}
+
+footer #whatsapp {
+    transition: ease-in-out .4s;
+}
+
+footer #whatsapp:hover{
+    color: #ffffff;
+    background-color: #46b361;
+}
 
 
 /* *********************/
