@@ -504,6 +504,89 @@ html {
     opacity: 1;
     bottom: 0;
 }
+
+
+
+#portfolio .hop{
+    color: rgb(132, 209, 235);
+}
+
+#portfolio .hopfecha {
+    color: rgb(255, 73, 73);
+}
+
+#portfolio .hopcargo {
+    color: #fff;
+}
+
+
+
+#portfolio .ln{
+    color: rgb(150, 150, 250);
+}
+
+#portfolio .lnfecha {
+    color: lightblue;
+}
+
+#portfolio .lncargo {
+    color: #fff;
+}
+
+
+
+#portfolio .unla{
+    color: rgb(194, 115, 115);
+}
+
+#portfolio .unlafecha {
+    color: rgb(212, 99, 122);
+}
+
+#portfolio .unlacargo {
+    color: #fff;
+}
+
+
+#portfolio .sullair{
+    color: rgb(93, 196, 93);
+}
+
+#portfolio .sullairfecha {
+    color: rgb(105, 207, 92);
+}
+
+#portfolio .sullaircargo {
+    color: #fff;
+}
+
+
+#portfolio .plastyvial{
+    color: rgb(147, 173, 228);
+}
+
+#portfolio .plastyvialfecha {
+    color: rgb(179, 179, 179);
+}
+
+#portfolio .plastyvialcargo {
+    color: #fff;
+}
+
+
+#portfolio .ayc{
+    color: orange;
+}
+
+#portfolio .aycfecha {
+    color: rgb(255, 195, 83);
+}
+
+#portfolio .ayccargo {
+    color: #fff;
+}
+
+
 /* *********************/
 /* seccion C O N T A C T O */
 /* *********************/
