@@ -16,7 +16,7 @@ html {
 /* *********************/
 
 #inicio {
-    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../assets/images/fondo-inicio.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.95)), url("../assets/images/fondo-inicio.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -41,7 +41,7 @@ html {
 
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
-    color: #ffe600;
+    color: #008000;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -54,12 +54,12 @@ html {
     text-decoration: none;
     color: #fff;
     margin: 0 12px;
-    font-weight: 400;
+    font-weight: 500;
     transition: .5s;
 }
 
 #inicio .contenido header .contenido-header nav ul li a:hover {
-    color: #ffe600;
+    color: #008000;
 }
 
 #inicio .contenido header .contenido-header .redes a {
@@ -71,11 +71,11 @@ html {
 }
 
 #inicio .contenido header .contenido-header .redes a:hover {
-    color: #ffe600;
+    color: #008000;
 }
 
 #inicio .contenido header .contenido-header .seleccionado {
-    color: #ffe600;
+    color: #FFA400;
 }
 
 #inicio .contenido .presentacion {
@@ -104,7 +104,7 @@ html {
 
 #inicio .contenido .presentacion h2 span {
     font-size: 30px;
-    color: #ffe600;
+    color: #FFA400;
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -128,8 +128,8 @@ html {
 }
 
 #inicio .contenido .presentacion a:hover {
-    background-color: #ffe600;
-    color: #000;
+    background-color: #008000;
+    color: #FFF;
 }
 
 #icono-nav {
@@ -169,7 +169,7 @@ html {
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #FFA400;
     text-decoration-thickness: 5px;
 }
 
@@ -181,7 +181,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-    color: goldenrod;
+    color: #008000;
 }
 
 #sobremi .sobremi h3 {
@@ -212,7 +212,7 @@ html {
 }
 
 #sobremi .sobremi a:hover {
-    background-color: #ffe600;
+    background-color: #FFA400;
     color: #000000;
 }
 /* *********************/
@@ -231,7 +231,7 @@ html {
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #008000;
     text-decoration-thickness: 5px;
 }
 
@@ -244,6 +244,7 @@ html {
 
 #servicios .fila .servicio {
     max-width: 350px;
+    min-width: 350px;
     background-color: #fff;
     padding: 30px;
     margin: 0 5px;
@@ -252,7 +253,7 @@ html {
 }
 
 #servicios .fila .servicio:hover {
-    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+    box-shadow: 5px 5px 10px #008000, -5px -5px 10px #FFA400;
 }
 
 #servicios .fila .servicio .icono {
@@ -293,7 +294,7 @@ html {
 /* *********************/
 
 .contenedor-skills {
-    background: linear-gradient( #ffe600, rgba(33, 16, 16, 0.8)), url("../assets/images/fondo-skills.jpg");
+    background: linear-gradient( #008000, rgba(33, 16, 16, 0.85)), url("../assets/images/fondo-skills.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -318,7 +319,7 @@ html {
     margin-right: 20px;
     height: 10px;
     width: 10px;
-    background-color: #fff;
+    background-color: #FFF;
 }
 
 .contenedor-skills .skill .barra {
@@ -329,49 +330,49 @@ html {
 }
 
 .contenedor-skills .skill .barra .barra-progreso1 {
-    background-color: #fff;
+    background-color: #FFA400;
     width: 95%;
     height: 6px;
     animation: progreso1 3s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2 {
-    background-color: #fff;
+    background-color: #FFA400;
     width: 90%;
     height: 6px;
     animation: progreso2 3s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso3 {
-    background-color: #fff;
+    background-color: #FFA400;
     width: 90%;
     height: 6px;
     animation: progreso3 3s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso4 {
-    background-color: #fff;
+    background-color: #FFA400;
     width: 90%;
     height: 6px;
     animation: progreso4 3s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso5 {
-    background-color: #fff;
+    background-color: #FFA400;
     width: 90%;
     height: 6px;
     animation: progreso5 3s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso6 {
-    background-color: #fff;
+    background-color: #FFA400;
     width: 85%;
     height: 6px;
     animation: progreso6 3s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso7 {
-    background-color: #fff;
+    background-color: #FFA400;
     width: 80%;
     height: 6px;
     animation: progreso7 3s forwards;
@@ -457,7 +458,7 @@ html {
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #FFA400;
     text-decoration-thickness: 5px;
 }
 
@@ -478,7 +479,6 @@ html {
 #portfolio .fila .proyecto img {
     width: 100%;
     height: 100%;
-    ;
     filter: grayscale(1);
     object-fit: cover;
     transition: .5s;
@@ -492,7 +492,7 @@ html {
     position: absolute;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #ffe600;
+    color: #008000;
     width: 100%;
     padding: 10px;
     opacity: 0;
@@ -508,11 +508,11 @@ html {
 
 
 #portfolio .hop{
-    color: rgb(132, 209, 235);
+    color: rgb(255, 0, 0);
 }
 
 #portfolio .hopfecha {
-    color: rgb(255, 73, 73);
+    color: rgb(182, 231, 243);
 }
 
 #portfolio .hopcargo {
@@ -535,15 +535,15 @@ html {
 
 
 
-#portfolio .unla{
-    color: rgb(194, 115, 115);
+#portfolio .lomanegra{
+    color: #ff0000;
 }
 
-#portfolio .unlafecha {
-    color: rgb(212, 99, 122);
+#portfolio .lomanegrafecha {
+    color: #d8d8d8;
 }
 
-#portfolio .unlacargo {
+#portfolio .lomanegracargo {
     color: #fff;
 }
 
@@ -636,11 +636,12 @@ html {
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #008000;
     text-decoration-thickness: 5px;
 }
 
 #contacto .btn-enviar {
+    font-weight: bolder;
     display: block;
     margin: auto;
     cursor: pointer;
@@ -649,8 +650,8 @@ html {
 }
 
 #contacto .btn-enviar:hover {
-    background-color: #ffe600;
-    color: #000;
+    background-color: #008000;
+    color: #fff;
 }
 /* *********************/
 /* seccion F O O T E R */
